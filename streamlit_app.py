@@ -1,14 +1,16 @@
 import streamlit as st
-
 import os
 
 st.set_page_config(page_title="RTOS Smart Traffic", layout="wide")
-
 st.title("🚦 RTOS-Based Smart Traffic Intersection")
 
 if st.button("▶ Run Simulation"):
     with st.spinner("Running simulation..."):
-        run_simulation_and_plot()
+        st.write("Simulation running...")
+        # 🔥 PUT your simulation loop HERE
+        # for sim_time in range(600):
+        #     ...
+
     st.success("Simulation finished")
 
 if os.path.exists("smart_traffic_rtos_report.png"):
