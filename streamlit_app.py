@@ -1,5 +1,5 @@
 import streamlit as st
-from smart_traffic_rtos_white import run_simulation_and_plot
+
 import os
 
 st.set_page_config(page_title="RTOS Smart Traffic", layout="wide")
