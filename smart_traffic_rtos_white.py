@@ -563,8 +563,8 @@ def run_simulation_and_plot():
                  color='#333333', va='top', ha='left',
                  wrap=True, linespacing=1.5)
 
-    plt.savefig('/mnt/user-data/outputs/smart_traffic_rtos_report.png',
-                dpi=150, bbox_inches='tight', facecolor='white')
+    plt.savefig("smart_traffic_rtos_report.png",
+            dpi=150, bbox_inches='tight', facecolor='white')
     print("✓ Report saved.")
     return scheduler, traffic
 
